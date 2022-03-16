@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Poppins:300,400,500,600,700");
+
+
+body {
+  font-family:"Open Sans", sans-serif, "Georgia", Times, "Times New Roman", serif !important;
+  -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+  color: #8b8e93;
+}
+
+.main-header .logo {
+  font-family:"Open Sans", sans-serif, "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.box-title{
+  font-family:"Open Sans", sans-serif, "Georgia", Times, "Times New Roman", serif !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:"Open Sans", sans-serif, "Georgia", Times, "Times New Roman", serif !important;
+}
+
+.box.box-warning {
+  border-top-color: #4D5050 !important;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active{
+  border-top-color: #4D5050 !important;
+}
+
+
+.btn-new {
+  font-family:"Open Sans", sans-serif, "Georgia", Times, "Times New Roman", serif !important;
+  background-color:#222d32 !important;
+  color:#FFFFFF !important;
+}
+
+
+
+#panel_opciones{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.center-btn{
+    margin-top:31px !important;
+    margin-left:-15px !important;
+}
+
+.center-btn-2{
+    margin-top:33px !important;
+    margin-left:-25px !important;
+}
+
+.center-btn-3{
+    margin-left: 30% !important;
+}
+
+.center-btn-panel-leaflet{
+    margin-top:23px !important;
+    margin-left:-15px !important;
+}
+
+.margin-left-title{
+  margin-left: 15px;
+}
+
+
+@media (max-width: 768px) {
+  .center-btn {
+    margin-top:0px !important;
+    margin-left:15px !important;
+  }
+  
+  .center-btn-2{
+    margin-top:5px !important;
+    margin-left:15px !important;
+ }
+ 
+ .center-btn-panel-leaflet{
+    margin-top: -10px !important;
+    margin-left: 15px !important;
+}
+}
+
+.panel-leaflet-ubicacion{
+  position:absolute;  
+  z-index:1001; 
+  color: #FFFFFF;
+  background-color:#222d32; 
+  display: none;
+  width: 25%;
+  top: 200px; 
+  left: 82px;
+  padding: 15px; 
+}
+
+@media (max-width: 768px) {
+  .panel-leaflet-ubicacion{
+  position:absolute;  
+  z-index:1001; 
+  color: #FFFFFF;
+  background-color:#222d32; 
+  display: none;
+  width: 45%;
+  margin-top: 41%;
+  margin-left: 16%;
+  padding-top: 6%;
+  padding-left: 5%;
+}
+}
+
+/*Ocultar herramientas de leaflet*/
+a.leaflet-draw-draw-marker {
+ display: inline;
+ visibility: hidden;
+}
+
+a.leaflet-draw-draw-polyline {
+ display: inline;
+ visibility: hidden;
+}
+
+a.leaflet-draw-draw-circlemarker{
+ display: inline;
+ visibility: hidden;
+}
+
+a.leaflet-draw-edit-edit{
+ display: inline;
+ visibility: hidden;
+}
+
+
+div.leaflet-draw-toolbar{
+  box-shadow: 0 0px 0px rgba(0,0,0,0) !important; 
+ -moz-box-shadow:0 0px 0px rgba(0,0,0,0) !important;
+ -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
+ border-color: rgba(0,0,0,0) !important;
+     }
+     
+#tootgle_panel_leaflet{
+  color: black;
+}     
+
+.info {
+  padding: 0;
+}
+
+.legend i {
+    opacity: 1;
+}
+
+.btn-auth{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.pol-margin{
+  margin: 10px;
+}
+
+.margin-panel{
+  margin: 20px;
+}
+
+.dropdown-menu{
+  z-index: 1001 !important;
+}
+
+
